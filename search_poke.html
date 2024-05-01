@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="search_poke.css" />
+    <title>pokémon pokédex</title>
+
+    <img src="pokemon.png" alt="pokemon Image" class="poke_image">
+</head>
+<body>
+<main>
+    <div class="search-container">
+        <input
+                id="pokemonName"
+                type="text"
+                placeholder="Pokemon name"
+                class="pokemon-input"
+        />
+        <button id="search" class="search-button">🔎</button>
+    </div>
+
+
+    
+
+    <div class="searchedPokemonBox pokemonBox"></div> <!-- Separate class for searched Pokemon -->
+    <div class="infiniteScrollPokemonBox pokemonBox"></div> <!-- Separate class for infinite scroll Pokemon -->
+
+
+    <!-- Your existing HTML content -->
+
+
+<!-- Pokemon boxes -->
+<div class="infiniteScrollPokemonBox"></div>
+
+
+</main>
+
+
+<script src="search_poke.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/* Global styles */
+.poke_image {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Adjusted search container */
+.search-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin-top: 20px; /* Adjust top margin */
+}
+
+/* Styles for the input */
+.pokemon-input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Styles for the button */
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #679569;
+}
+
+/* Pokemon box styles */
+.pokemonBox {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Four columns layout */
+    gap: 20px; /* Gap between columns */
+    padding: 20px; /* Padding around the grid */
+}
+
+/* Styles for searched Pokemon */
+.searchedPokemonBox {
+    grid-column: 1 / span 5; /* Span all columns */
+}
+
+/* Styles for infinite scroll Pokemon */
+.infiniteScrollPokemonBox {
+    grid-column: 1 / span 5; /* Span all columns */
+    margin-top: 20px; /* Adjust top margin */
+}
+
+/* Pokemon card styles */
+.pokemonCard {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+}
+
+/* Exclude box-shadow for searched Pokemon cards */
+.searchedPokemonBox .pokemonCard:hover {
+    box-shadow: none;
+}
+
+/* Image styles */
+.pokemonCard img {
+    max-width: 40%;
+    height: auto;
+}
+
+/* CSS for hover effect on infinite scroll Pokemon */
+.infiniteScrollPokemonBox .pokemonCard.clickableCard {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect only for cards in the infinite scroll section */
+.infiniteScrollPokemonBox .pokemonCard.clickableCard:hover {
+    transform: scale(1.05);
+}
