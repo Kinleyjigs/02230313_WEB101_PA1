@@ -2,26 +2,33 @@
 
 ## Hey Trainer!
 
-WELCOME every one to my pokedex.
+WELCOME everyone to my Pokedex!
 
-This is a pokedex where you can search for all kinds of Pokémon.You can look for your favourite pokemon through searching the correct pokemon name in the search bar.The pokemon that you have seen is marked a green tick on the top side of the pokemon card. 
+This is a Pokedex where you can search for all kinds of Pokémon. You can look for your favorite Pokémon by typing the correct name in the search bar. Once you've seen a Pokémon, it will be marked with a green tick on the top side of the Pokémon card.
 
 ## What's Inside?
 
-- **Search:** You have to type the correct name in the search bar.
-- **Explore:** Scroll through a list of Pokémon with their names and images. Click on any Pokémon card to displays their details and abilities.
-- **Learn:** Size,weight,type of pokemon, the abilities of pokemon and weakness of pokemon.
-- **Navigate:** just search the pokemon by entering correct pokemon name in search bar, a green tick represent the pokemon is seen.
+- **Search:** Type the correct name in the search bar to find your favorite Pokémon.
+- **Explore:** Scroll through a list of Pokémon with their names and images. Click on any Pokémon card to display their details and abilities.
+- **Learn:** Discover the size, weight, type, abilities, and weaknesses of each Pokémon.
+- **Navigate:** Just search for the Pokémon by entering the correct Pokémon name in the search bar. A green tick will represent the Pokémon as seen.
 
 ## Let's Get Started!
 
-1. **Clone:** https://github.com/Kinleyjigs/02230313_WEB101_PA1.git
+1. **Clone:** Clone the repository from [GitHub](https://github.com/Kinleyjigs/02230313_WEB101_PA1.git).
 2. **Search:** Use the search input field to find your favorite Pokémon.
 
+## Technologies Used
+
+This Pokedex is built using the following technologies:
+- HTML: Markup language for creating the structure of the web page.
+- CSS: Styling language for designing the appearance of the web page.
+- JavaScript: Programming language for adding interactivity and fetching data.
+- [PokeAPI](https://pokeapi.co/api/v2/): Provides the data that powers our Pokedex.
 
 ## Shoutout to Our Partners!
 
-- **Data:** Thanks to [[PokeAPI](https://pokeapi.co/)](https://pokeapi.co/api/v2/) for providing the data that powers our Pokedex.
+- **Data:** Thanks to [PokeAPI](https://pokeapi.co/api/v2/) for providing the data that powers our Pokedex.
 
 ## Need Help?
 
