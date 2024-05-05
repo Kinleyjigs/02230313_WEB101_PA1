@@ -4,43 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-            rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="search_poke.css" />
-    <title>pokémon pokédex</title>
-
-    <img src="pokemon.png" alt="pokemon Image" class="poke_image">
+    <title>Pokémon</title>
 </head>
 <body>
 <main>
+    <img src="heading1.png" alt="pokemon Image" class="poke_image">
     <div class="search-container">
         <input
                 id="pokemonName"
                 type="text"
-                placeholder="Pokemon name"
+                placeholder="Enter Pokémon name"
                 class="pokemon-input"
         />
         <button id="search" class="search-button">🔎</button>
+        <!-- seenbutton with pokeball emoji -->
+        <button id="seenButton" class="tick-button"></button>
+
+
+      
     </div>
-
-
     
+    <div id="pokemonDetailsContainer"></div> <!-- Container for displaying Pokémon details -->
 
-    <div class="searchedPokemonBox pokemonBox"></div> <!-- Separate class for searched Pokemon -->
-    <div class="infiniteScrollPokemonBox pokemonBox"></div> <!-- Separate class for infinite scroll Pokemon -->
-
-
-    <!-- Your existing HTML content -->
-
-
-<!-- Pokemon boxes -->
-<div class="infiniteScrollPokemonBox"></div>
-
-
-</main>
+    <div class="pokemon-container" id="pokemonContainer">
+        <!-- Pokémon cards will be rendered here -->
+    </div>
+    
+    <div class="pokemon-grid" id="pokemonGrid">
+      <!-- Pokémon cards will be rendered here -->
+  </div>
+  <div id="pokemonDetailsContainer"></div>
+  <div id="pokemonGrid"></div>
 
 
 <script src="search_poke.js"></script>
